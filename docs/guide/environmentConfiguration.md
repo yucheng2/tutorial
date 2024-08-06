@@ -47,8 +47,16 @@ https://www.exception.site/essay/how-to-free-use-intellij-idea-2019-3
 
 ### 配置国内镜像
 
-<a href="/mirror-config.zip" download>镜像配置文件</a>
-下载这两个文件，放到用户目录下。比如C:/Users/17835
+<script setup>
+import { withBase, useData } from 'vitepress'
+</script>
+
+<a :href="withBase('/mirror-config.zip')">镜像配置文件</a> ,下载这两个文件，放到用户目录下。比如C:/Users/17835
+
+<style module>
+</style>
+
+
 
 #### .npmrc
 

@@ -8,7 +8,14 @@ fnm 是一个 Node.js 版本管理工具，它可以让你在不同的项目中�
 
 ## 安装包
 
-<a href="/fnm-windows.zip">安装包</a>
+<script setup>
+import { withBase, useData } from 'vitepress'
+</script>
+
+<a :href="withBase('/fnm-windows.zip')">安装包</a>
+
+<style module>
+</style>
 
 ## 配置环境变量
 
