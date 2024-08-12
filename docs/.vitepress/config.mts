@@ -27,14 +27,22 @@ export default defineConfig({
                         },
                     ]
                 },
-                // {
-                //     text: 'html基础',
-                //     items: []
-                // },
-                // {
-                //     text: 'js基础',
-                //     items: []
-                // },
+                {
+                    text: '基础',
+                    items: [
+                        {
+                            text: '起步', link: '/guide/basics/start',
+                        },
+                    ]
+                },
+                {
+                    text: '项目',
+                    items: [
+                        {
+                            text: '脚手架', link: '/guide/projects/scaffold',
+                        },
+                    ]
+                },
                 // {
                 //     text: 'css基础',
                 //     items: []
